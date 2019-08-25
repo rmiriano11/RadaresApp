@@ -5,71 +5,47 @@
     android:layout_height="match_parent">
 
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="5dp"
-        android:hint="nome"
-        android:id="@+id/nomeColab"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="data da solicitação"
+       android:id="@+id/dataSolit"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="5dp"
-        android:hint="Destino/Cidade"
-        android:id="@+id/destinoColab"/>
+        android:hint="Tipo de Atendimento"
+        android:id="@+id/atendimento"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="5dp"
-        android:hint="Dia de partida"
-        android:id="@+id/partidaColab"/>
+        android:hint="Motivo do atendimento"
+        android:id="@+id/motivoAtend"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="5dp"
-        android:hint="Dia de retorno"
-        android:id="@+id/retornoColab"/>
+        android:hint="Nome do Solicitante"
+        android:id="@+id/nomeSolit"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Terrestre"
-        android:id="@+id/terrestreColab"/>
+        android:hint="Área do Solicitante"
+        android:id="@+id/areasolit"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Aereo"
-        android:id="@+id/aereoColab"/>
+        android:hint="Informe o Número do gtsfic"
+        android:id="@+id/numgtsfic"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="5dp"
-        android:hint="Solicitante"
-        android:id="@+id/solicitanteColab"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="5dp"
-        android:hint="Razão da visita"
-        android:id="@+id/razaoColab"/>
+        android:hint="Outros Detalhes"
+        android:id="@+id/detalhes"/>
 
     <Button
         android:layout_width="wrap_content"

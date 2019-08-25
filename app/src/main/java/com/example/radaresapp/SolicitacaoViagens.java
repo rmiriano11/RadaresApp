@@ -37,13 +37,6 @@ public class SolicitacaoViagens extends AppCompatActivity {
         setContentView(R.layout.activity_solicitacao);
 
         //chamando os itens estanciados
-        editTextnomeColab = findViewById(R.id.nomeColab);
-        editTextdestinoColab = findViewById(R.id.destinoColab);
-        editTextpartidaColab = findViewById(R.id.partidaColab);
-        editTextretornoColab = findViewById(R.id.retornoColab);
-        editTextterrestreColab = findViewById(R.id.terrestreColab);
-        editTextaereoColab = findViewById(R.id.aereoColab);
-        editTextsolicitanteColab = findViewById(R.id.solicitanteColab);
         editTextrazaoColab = findViewById(R.id.razaoColab);
         buttonenviarSolicit = findViewById(R.id.enviarSolicit);
 
